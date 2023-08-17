@@ -1,0 +1,43 @@
+.profile-container {
+  background-color: #fefefe;
+  height: 100vh;
+}
+.profile-modal {
+  margin-top: -70px;
+  z-index: 20;
+  width: 90%;
+  position: fixed;
+  padding-top: 30px;
+  border-radius: 30px;
+  height: 80%;
+  overflow: visible;
+}
+.picture-container {
+  margin-top: -70px;
+}
+.collapsible {
+  width: 90%;
+  color: grey;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
+.hr {
+  width: 100%;
+  background-color: gray;
+}
+.email-text {
+  margin: 0 auto;
+  color: grey;
+}
+.edit-icon {
+  position: absolute;
+  right: 17px;
+}
+.w-fit {
+  width: fit-content;
+}
+.name-text {
+  font-weight: 600;
+  margin-bottom: -3px;
+}

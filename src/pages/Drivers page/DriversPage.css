@@ -1,0 +1,406 @@
+.NavTop{
+    width: 100%;
+    height: 90px;
+    background-color: #0C3EAD;
+    display: flex;
+    padding: 7% 0 0 5%;
+    color: white;
+}
+.NavTopText{
+    margin: 0% 25% 0 15%;
+    color: var(--text-white, #FFF);
+    font-family: Rubik;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+
+}
+.BackIcon{
+    margin: 0% ;
+}
+.iconEllipse{
+    width: 46px;
+    height: 46px;
+    background-color: white;
+    border-radius: 50%; /* This creates the ellipse shape */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0% 0 0 2%;
+}
+.Hello{
+    color: #0C3EAD;
+    font-family: Rubik;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; 
+    margin-top: 7%;
+}
+
+.SignUpText{
+    color: rgba(0, 0, 0, 0.51);
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 9%;
+}
+.LabelNames{
+    color: #0C3EAD;
+    font-family: Rubik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+.FormPage {
+    margin: 7%;
+}
+.InputFields {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 4% 0;
+}
+label {
+    margin: 0%;
+    color: #0C3EAD;
+    font-size: small;
+}
+.PrivacyFooter{
+    text-align: center;
+}
+.SignUpBtn{
+    display: flex;
+    width: 100%;
+    height: 41px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.00);
+    background: #0C3EAD;
+    margin: 7% auto;
+    color: #FFF;
+}
+
+.Fields{
+    display: flex;
+width: 100%;
+height: 41px;
+padding-left: 10px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+border-radius: 5px;
+border: 1px solid rgba(0, 0, 0, 0.51);
+background: #E2EBFD;
+    
+}
+
+/* @media (max-width > 500px) {
+    .NavTop{
+        width: 100%;
+        height: 150px;
+        background-color: #0C3EAD;
+        display: flex;
+        padding: 7% 0 0 5%;
+        color: white;
+    }
+    .NavTopText{
+        margin: 1% 25% 0 20%;
+        color: var(--text-white, #FFF);
+        font-family: Rubik;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+    
+    }
+} */
+
+
+/*  STYLING FOR THE PERSONAL DETAILS JSX
+*/
+
+.DetailsNavTopText{
+    color: #FEFEFE;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 144.444% */
+    width: 50%;
+    margin: 0 25% 0 15%;
+}
+
+.DriversDetails{
+    margin: 2% 7%;
+}
+.DetailsText{
+    color: rgba(0, 0, 0, 0.51);
+    font-family: Rubik;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px; /* 146.154% */
+}
+.VehicleText {
+    color: rgba(0, 0, 0, 0.51);
+    font-family: Rubik;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 150% */
+}
+
+/* LICENSE PAGE DESIGNS*/
+
+
+.LicenseText{
+    color: rgba(0, 0, 0, 0.51);
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height:  135.714% 
+}
+
+/*DOCUMENT PAGE*/
+
+.DocumentText{
+    color: #0C3EAD;
+font-family: Rubik;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px; /* 133.333% */
+}
+.DocumentSubText{
+    color: rgba(0, 0, 0, 0.51);
+font-family: Rubik;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 17px; /* 141.667% */
+margin-bottom: 2%;
+}
+
+.Uploadbutton{
+    width: 108px;
+height: 36px;
+flex-shrink: 0;
+border-radius: 13px;
+background: #0C3EAD;
+color: #FFF;
+}
+
+hr{
+    border: none;
+    height: 1px;
+    background: rgba(12, 62, 173, 0.60);
+    
+}
+
+
+/*Support page*/
+
+.SupportBody{
+    margin: 5% 7%;
+}
+
+.SupportContact{
+    display: flex;
+    margin-top: 5%;
+}
+.SupportText{
+    margin-left: 5%;
+}
+
+/*Forgotten Password*/
+
+.ForgottenPasswordText{
+    color: #0C3EAD;
+    font-family: Rubik;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height:  133.333%  
+}
+.ForgottenPasswordSubText{
+    color: rgba(0, 0, 0, 0.51);
+    font-family: Rubik;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 133.333%;
+    margin: 0% 0 2% 0;
+}
+
+
+/*VERIFY PASSWORD*/
+
+.VerificationCode{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.VerifySlots{
+    width: 17%;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #E2EBFD;
+    text-align: center;
+    color: #0C3EAD;
+    font-family: Rubik;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 72.5%;
+    border: 0;
+    margin: 7% 0%;
+}
+
+.OTP{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.51);
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 161.111%;
+    margin-bottom: 0%;
+}
+
+
+/*eDIT Profile*/
+
+.DP{
+      width: 104px;
+      height: 104px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.CityState{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+/*Passenger Profile page*/
+
+.PictureText{
+    margin-top: 5%;
+}
+.ProfileText{
+    color: var(--text-grey, #8A8894);
+font-family: Rubik;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px; /* 157.143% */
+margin: 3% 0;
+}
+.PassengerPic{
+    width: 100%;
+}
+.RatingStyle{
+    display: flex;
+    flex-direction: row;
+}
+.HeadingInfo{
+    color: var(--text-black, #212121);
+font-family: Rubik;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 120%; /* 24px */
+margin-bottom: 7%;
+}
+.PassengerInfo{
+    margin: 7% 0;
+}
+.RatingText{
+    color: var(--text-black, #212121);
+font-family: Rubik;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 120%; /* 24px */
+margin: 0 0 5%;
+}
+
+/*Drivers and Passenger Rating Page*/
+.DriversPassengerPage{
+    margin: 5% 7%;
+}
+
+/*Identity Page*/
+.IdentityText{
+    color: rgba(0, 0, 0, 0.51);
+font-family: Rubik;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px; /* 157.143% */
+}
+
+/*ONGOING RIDE*/
+
+.Destination{
+    display: flex;
+width: 100%;
+padding: 5% 3%;
+justify-content: center;
+align-items: center;
+gap: 10px;
+background-color: #CFDEFF;
+color: #072566;
+margin: 7% 0;
+}
+
+.DestinationText{
+    color: #072566;
+font-family: Rubik;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 120%; /* 19.2px */
+margin: 0;
+
+}
+
+.PassengerNumber{
+    margin: 10% 0 35%;
+}
+.ExclaimationImage{
+    width: 171px;
+    height: 170px;
+    flex-shrink: 0;
+    margin: 10% 25% 10% 25%;
+}
+.PassengerHeader{
+    color: var(--text-black, #212121);
+font-family: Rubik;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 120%; /* 24px */
+}
+.PassengerSubText{
+    color: var(--text-black, #212121);
+font-family: Rubik;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 155.556% */
+}

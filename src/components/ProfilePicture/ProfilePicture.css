@@ -1,0 +1,16 @@
+input[type="file"] {
+  display: none; /* Hide the default file input */
+}
+.DisplayPicture {
+  width: 104px;
+  height: 104px;
+  flex-shrink: 0;
+  border: 0;
+  border-radius: 50%;
+  z-index: 20;
+  position: relative;
+}
+.profile-picture-container {
+  z-index: 20;
+  position: relative;
+}

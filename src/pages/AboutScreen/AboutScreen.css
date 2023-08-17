@@ -1,0 +1,67 @@
+@media (max-width: 500px) {
+    body {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .AboutScreen .BlueContainer {
+        display: flex;
+        width: 100%;
+        padding: 61px 24px 14px 24px;
+        align-items: center;
+        /* flex-direction: row; */
+        /* justify-content: space-between; */
+        background: var(--primary-color, #0C3EAD);
+    }
+
+    .AboutScreen .WhiteContainer {
+        width: 62px;
+        height: 62px;
+        border-radius: 60%;
+        background-color: #FFF;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .AboutScreen .menu {
+        width: 24px;
+        height: 24px;
+    }
+
+    .AboutScreen .Whitebox {
+        padding: 24px;
+    }
+
+    .AboutScreen .About {
+        color: var(--text-white, #FFF);
+        font-family: Rubik;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        /* width: 80%; */
+        line-height: 24px; /* 150% */
+        text-align: center;
+        margin-top: 16px;
+        margin-left: 15%;
+    }
+
+    .AboutScreen .header {
+        color: var(--text-black, #212121);
+        font-family: Rubik;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 120%; /* 24px */
+    }
+
+    .AboutScreen .text {
+        color: var(--text-black, #212121);
+        font-family: Rubik;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px; /* 178.571% */
+    }
+}    

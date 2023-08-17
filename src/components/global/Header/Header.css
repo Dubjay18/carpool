@@ -1,0 +1,82 @@
+.NavTop-header {
+  width: 100%;
+  position: relative;
+  z-index: 10;
+  background-color: #0c3ead;
+  display: flex;
+  padding: 7% 0 0 5%;
+  color: white;
+}
+.header-h {
+  height: 90px;
+}
+.NavTopText {
+  margin: 0% 25% 0 15%;
+  color: var(--text-white, #fff);
+  font-family: Rubik;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+.BackIcon {
+  margin: 0%;
+}
+.iconEllipse {
+  width: 46px;
+  height: 46px;
+  background-color: white;
+  border-radius: 50%; /* This creates the ellipse shape */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0% 0 0 2%;
+}
+.pb-nav {
+  padding-bottom: 60px;
+}
+.profile-pic {
+  width: 50px;
+  height: 50px;
+  margin-right: 14px;
+}
+.canvas-top span {
+  font-size: large;
+  font-weight: 500;
+}
+.canvas-top a {
+  font-size: small;
+  margin-top: -2px;
+  color: #0c3ead;
+  font-weight: 600;
+}
+.menu-option {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0 15px;
+  margin: 20px 0;
+  font-weight: 600;
+}
+
+.notify-badge {
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5a0a38f;
+  border-radius: 50%;
+  font-weight: 600;
+  margin-left: 10px;
+}
+.accordion-menu-option button {
+  padding: 0 !important;
+}
+.accordion-menu-option .accordion-item {
+  border: 0 !important;
+  width: 177px;
+}
+.accordion-menu-option .menu-option {
+  margin: 0 !important  ;
+}

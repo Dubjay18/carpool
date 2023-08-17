@@ -1,0 +1,223 @@
+
+@media (max-width: 500px) {
+    .landing-page{
+        font-family: 'Rubik', sans-serif;
+        font-size: larger;
+    
+        
+    }
+    .textstyle{
+        font-size: 2.2rem;
+        color: #000;
+font-family: Rubik;
+font-style: normal;
+font-weight: 600;
+line-height: 45px; /* 140.625% */
+    }
+
+    .flex{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 8% 0 8% 0;
+    }
+    .textColor{
+        color: #0C3EAD;
+    }
+    .textclass {
+        padding: 5%;
+    }
+    .purplebutton {
+        width: 100%;
+        height: 65px;
+        color: white;
+        background-color: #0C3EAD;
+        border-radius: 10px;
+        border: 0;
+        outline: 0;
+        margin-top: 16px;
+    }
+    .stats {
+        display: flex;
+        width: 100%;
+        max-width: 400px;
+        justify-content: space-between;
+        margin-top: 5%;
+    }
+    .whitebutton {
+        width: 100%;
+        height: 65px;
+        color: #0C3EAD;
+        background-color: white;
+        border-radius: 10px;
+        border: 2px solid #407BFF;
+        outline: 0;
+        margin-top: 16px;
+    }
+    .text1 {
+        width: 200px;
+        height: 500px;
+    }
+    
+    /* next div */
+    
+    .locationSetter{
+    background-color: #CFDDFC;
+    align-items: center;
+    text-align: center;
+    padding: 5%;
+    height: 325px;
+    width: 100%;
+    flex-shrink: 0;
+    }
+    .locationText{
+        color: #0C3EAD;
+        font-family: Rubik;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+        margin-top: 5%;
+        margin-bottom: 10%;
+    }
+    .dropdownbtn{
+     
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    border: 0;
+    /* background-color: white; */
+    margin-top: 5%;
+    }
+    
+    .dropdownText{
+        font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    }
+    
+    
+    /* Instruction page */
+    .InstructionPage{
+        text-align: center;
+        width: 100%;
+        margin: 10% 0%;
+        color: #0C3EAD;
+    
+        
+    }
+    .ellipse {
+        width: 79px;
+        height: 77px;
+        background-color: #0C3EAD;
+        color: white;
+        border-radius: 50%; /* This creates the ellipse shape */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 5% auto 0 auto;
+    }
+    .vertical-line {
+        width: 2.362px; /* You can adjust the width as needed */
+        height: 41px; /* You can adjust the height as needed */
+        background-color: #000; /* You can change the color of the line */
+        margin: 1% auto;
+        background-color: #3F5B8D;
+    }
+    .stepshape{
+        width: 344px;
+        height: 56px;
+        border: 0;
+        border-radius: 15.75px;
+        background-color: #0C3EAD;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 5% auto 0 auto;
+    }
+    /* Style the div element as an inverted triangle */
+    .inverted-triangle {
+        width: 0;
+        height: 0;
+        border-left: 35.162px solid transparent;
+        border-right: 35.162px solid transparent;
+        border-bottom: 35.162px solid #0C3EAD; /* You can change the color of the triangle */
+        transform: rotate(180deg);
+        margin: 0 auto 5% auto;
+    }
+    .step-instruction{
+        color: #7E7E7E;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+    width: 257px;
+    margin: 1% auto 0 auto;
+    }
+      
+    
+    /* FAQ PAGE */
+    
+    .FAQ{
+        text-align: center;
+        width: 100%;
+        margin: 20% 0 7% 0;
+    
+    }
+    .FAQform-select{
+        width: 354px;
+        height: 89px;
+        border: 0;
+        border-width: 5px;
+        display: inline-flex;
+        padding: 13px 21px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5%;
+        border-radius: 5px;
+        background: #F2F2F2;
+        text-align: left;
+    }
+    
+    .LastImage{
+        /* background-image: url("../LandingPage/carimage2.avif"); */
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 500px; 
+        height: 300px;
+        background-color: #160a0a59;
+        background-blend-mode: multiply;
+        padding: 52px 94px 52px 24px;
+    }
+    .LastImageDiv{
+        width: 275px;
+     }
+     .LastImageText{
+        color: #fff;
+        font-family: Rubik;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+     }
+    
+     .LastImageDiv2{
+        width: 323px;
+        margin-top: 7%;
+     }
+     .LastImageText2{
+        color: #fff;
+        font-family: Rubik;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 142.857%;
+     }
+    
+}

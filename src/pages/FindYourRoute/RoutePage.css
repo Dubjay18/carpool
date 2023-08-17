@@ -1,0 +1,56 @@
+.LocationTag{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.RoutingPage{
+    display: flex;
+width: 100%;
+height: 64px;
+padding: 16px 20px;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+flex-shrink: 0;
+border-radius: 4px;
+background: var(--fields-form, #F7F7FD);
+margin: 7% 0;
+}
+.LocationIcon{
+    position: absolute;
+    right: 20%;
+}
+.LocationName{
+    width: 90%;
+}
+.LocationInput{
+    width: 100%;
+    border: 0;
+    background-color:  #F7F7FD;
+}
+
+.PageLayout{
+    margin: 15% 7%;
+}
+.TinyText{
+    color: var(--text-grey, #8A8894);
+font-family: Rubik;
+font-size: 11px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px; /* 145.455% */
+}
+.RideButton{
+    display: flex;
+width: 100%;
+padding: 16px 32px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 5px;
+background: var(--primary-color, #0C3EAD);
+color: white;
+margin-top: 50%;
+}

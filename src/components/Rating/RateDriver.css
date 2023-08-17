@@ -1,0 +1,31 @@
+.star {
+  font-size: 24px;
+  cursor: pointer;
+  color: gray;
+  background-color: white;
+  padding: 5px;
+  border-radius: 50%;
+  margin: 2px;
+  transition: color 0.2s ease-in-out;
+  width: 40px;
+  height: 40px;
+
+}
+
+.star.selected {
+  color: gold;
+  background-color: white;
+}
+
+.Feedbacktext{
+  width: 100%;
+}
+
+.RideQuestion{
+  color: var(--text-black, #212121);
+font-family: Rubik;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 120%; /* 24px */
+}

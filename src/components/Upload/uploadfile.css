@@ -1,0 +1,8 @@
+.choose-button{
+    width: 108px;
+    height: 36px;
+    flex-shrink: 0;
+    border-radius: 13px;
+    background: #0C3EAD;
+    color: #FFF;
+}

@@ -1,0 +1,181 @@
+@media (max-width: 500px){
+  body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* position: relative; */
+    overflow: scroll;
+}
+
+.code .BlueContainer {
+  display: flex;
+  width: 100%;
+  padding: 61px 307px 14px 24px;
+  align-items: center;
+  background: var(--primary-color, #0C3EAD);
+}
+
+.code .WhiteContainer {
+  width: 62px;
+  height: 62px;
+  flex-shrink: 0;
+  border-radius: 60%;
+  background-color: #FFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.code .arrow-left {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+
+
+.verify {
+  margin-bottom: 0;
+  color: #0C3EAD;
+  font-family: Rubik;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.sent {
+  color: rgba(0, 0, 0, 0.51);
+  font-family: Rubik;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29px; /* 161.111% */
+}
+
+.code .resend {
+  color: rgba(0, 0, 0, 0.51);
+  font-family: Rubik;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29px; /* 161.111% */
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+
+.code .whitebox {
+  /* padding: 24px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: calc(100vh - 90px);
+}
+
+.code .top {
+  padding: 6%;
+}
+
+.code .SendBtn {
+  display: flex;
+  width: 100%;
+  padding: 6px 64px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.00);
+  background: #0C3EAD;
+  color: #fff;
+  color: #E2EBFD;
+  font-family: Rubik;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  margin-top: 7px;
+  /* margin-top: 30px; */
+  /* margin: 30px 24px 0 24px; */
+}
+
+/* VerificationInput.css */
+.code .verification-container {
+  text-align: center;
+}
+
+.code .keypad {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);  
+  gap: 5px;
+  justify-content: center;
+  margin-top: 20px;
+  /* position: absolute; */
+  width: 100%;
+  border-radius: 48px 48px 0 0;
+  background: #0C3EAD;
+  margin-right: -24px;
+  height: 50vh;
+}
+
+.code .keypad button {
+  height: 100px;
+  font-size: 1.2rem;
+  background: #0C3EAD;
+  color: #E2EBFD;
+font-family: Rubik;
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: 29px; /* 72.5% */
+border: none;
+}
+
+.code .verification-input {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 1fr;
+  width: 100%;
+}
+
+
+.code .digit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 59px;
+  height: 60px;
+  border: 1px solid #ccc;
+  font-size: 1.5rem;
+  border-radius: 12px;
+  background-color: #E2EBFD;
+  position: relative;
+  color: #0C3EAD;
+  font-family: Rubik;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 29px;
+}
+@keyframes cursorBlink {
+  0%, 50% {
+    opacity: 1;
+  }
+  51%, 100% {
+    opacity: 0;
+  }
+}
+
+.cursor {
+  position: absolute;
+  width: 2px;
+  height: 44px;
+  background: rgba(12, 62, 173, 0.51);
+  animation: cursorBlink 1s infinite;
+  pointer-events: none;
+  margin-left: -30px;
+}
+
+.digit.active {
+  border-color: blue; /* Change border color for active digit */
+}
+
+}

@@ -1,0 +1,25 @@
+.notifications-page-container h5 {
+  font-weight: 600;
+}
+.notification-card {
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  font-weight: 400;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.notification-card .time {
+  font-size: 12px;
+  word-break: keep-all;
+  width: 8%;
+  color: #0c3ead;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+}
+.notification-card .username {
+  color: #0c3ead;
+}

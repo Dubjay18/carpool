@@ -1,0 +1,45 @@
+.ongoing-container {
+  background-color: #f5f5f5;
+  height: 100vh;
+}
+.btn-container {
+  margin-top: auto;
+  position: fixed;
+  bottom: 25px;
+  width: 100%;
+}
+.btn-container .btn-primary {
+  padding: 10px 0;
+}
+.bottom-modal-container {
+  top: 407px;
+  width: 400px;
+  background-color: #f5f5f5;
+}
+.bottom-modal {
+  display: flex !important;
+  align-items: flex-end;
+  margin: 0;
+}
+.share-modal-header .btn-close {
+  background-color: #e7e6e8;
+  border-radius: 50%;
+  margin: 3px;
+}
+.share-modal-header .modal-title {
+  font-size: 20px;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+}
+.share-sub-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #4a4f5b;
+}
+.bottom-modal .modal-content {
+  background-color: #f5f5f5;
+}
+.share-options {
+  font-weight: 500;
+}
